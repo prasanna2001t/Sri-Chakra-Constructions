@@ -1,0 +1,187 @@
+
+#root{
+   background-color: #7F7C82;
+   margin: 0%;
+   
+   
+}
+.heading{
+    position: relative;
+    left:20px;
+    font-size: 2.5rem;
+    padding-right: 18px;
+
+}
+.header{
+    position: relative;
+    right:30px;
+    padding:0 5px;
+    border-radius: 100px;
+    background-color: #3F72AF;
+    width: fit-content;
+ 
+    padding-left: 5px;
+    font-family: 'Crete Round', serif;
+}
+#main{
+    text-align: center;
+    position: relative;
+    top:50px;
+    left:400px;
+    font-size: 5rem;
+    width:500px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    padding-bottom: 20px;
+   margin:50px 0;
+
+}
+
+#about{
+    
+    width: 100%;
+    color:white;
+}
+.number{
+    font-size: 6rem;
+}
+.colhead{
+    font-size:1.5rem;
+}
+
+.content{font-size: 1rem;}
+
+ 
+   
+
+
+.maindiv{
+    text-align: left;
+    position: relative;
+    left: 80px;
+ 
+}
+.colx{
+    width:100px;
+    position: relative;
+    left:150px;
+    
+}
+
+
+
+
+.footer{
+    
+    background-color:black;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-size: larger;
+    padding: 20px;
+ 
+}
+.btn-start:hover{
+color:whitesmoke;
+opacity: 100%;
+}
+.btn-start{
+    opacity:50%;
+    border-radius: 100px;
+}
+.contact{
+    text-decoration: none;
+    color:antiquewhite; 
+
+}
+.contact:hover{
+    color: rgb(68, 59, 151);
+}
+.icons{
+    margin:15px;
+}
+.fas{
+    padding-right: "5px"
+}
+@media only screen and(max-width:596px )and  ( min-width:232px) {
+    .colx{
+        position: relative;
+        left:0px;
+        width:80px;
+      
+}
+}
+.concept{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    left:410px;
+}
+.cardx{
+    padding: 8px;
+}
+.form{
+ margin: 10px;
+    width:auto;
+    position: relative;
+    left:5px;
+    padding: 0 10px;
+    opacity: 50%;
+}
+#head{
+    height:max-content;
+}
+.card-text{
+    color: black;
+}
+.form:hover{
+    opacity: 100%;
+}
+.cardx{
+    padding: 15px 20px;
+}
+#address{
+    text-align: right;
+    line-height: 5px;
+   
+}
+@media screen and (max-width:628px) and (min-width:100px) {
+  .text{ position: relative;
+    right:400px;
+ font-size: 3rem;   
+    
+}
+.concept1{
+    position: relative;
+    right: 400px;
+}
+#root{
+    width: 100%;
+    overflow-x: hidden;
+}
+#address{
+    text-align: center;
+}
+
+
+
+}
+@media  screen and (max-width:1100px) and (min-width:600px) {
+    .text{
+        position: relative;
+        right:220px;
+        font-size: 3.5rem;
+    }
+    .concept1{
+        position: relative;
+        right: 230px;
+    }
+    
+   #address{
+       text-align: center;
+   }
+
+}
+
+
